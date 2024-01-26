@@ -159,6 +159,7 @@ def compute_example(inputs,labels,layers,R=5):
   inputs: the input examples of size (BATCH,DIM) = (300,40)
   labels: labels corresponding to the input for the classification problem
   layers: number of layers of the ansatz = depth
+  R: number of classes
 
   Returns
   ---------
